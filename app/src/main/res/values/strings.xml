@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Extra Manga</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_profile">Profile</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="140dp"
+    android:layout_height="250dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backGround">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:background="@color/backGround">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    app:cardCornerRadius="12dp"
+                    android:paddingRight="1dp">
+                    <ImageView
+                        android:id="@+id/image_comic"
+                        android:scaleType="fitXY"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"/>
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/name_comic"
+                        android:text="Comic Name sadsad"
+                        android:textSize="16sp"
+                        android:textColor="@color/comic_category_text"
+                        android:layout_gravity="bottom"
+                        android:paddingTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="4dp">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_baseline_local_fire_department_24"/>
+                        <TextView
+                            android:id="@+id/trend_comic"
+                            android:text="651"
+                            android:textStyle="bold"
+                            android:textColor="@color/love"
+                            android:layout_gravity="bottom"
+                            android:paddingLeft="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
